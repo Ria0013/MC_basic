@@ -1,0 +1,407 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+  <title>L-Kiers Group | Internal System</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- LOGIN -->
+<section id="loginPage" class="screen login-screen">
+  <div class="login-card">
+    <img src="맥시엘_로고.png" class="login-logo" alt="L-Kiers Logo">
+
+    <div class="system-label">L-KIERS GROUP / INTERNAL NETWORK</div>
+
+    <h1>Welcome.</h1>
+    <p class="login-subtitle">
+      L-Kiers Group 내부 인트라넷 접속 시스템
+    </p>
+
+    <div class="login-divider"></div>
+
+    <div class="login-info">
+      <span>NETWORK STATUS</span>
+      <span class="online-status">● ONLINE</span>
+    </div>
+
+    <div class="login-info">
+      <span>ACCESS LEVEL</span>
+      <span>AUTHORIZED PERSONNEL</span>
+    </div>
+
+    <button id="loginButton" class="login-button">
+      L-Kiers Group 접속하기
+      <span>→</span>
+    </button>
+
+    <p class="login-notice">
+      본 시스템은 승인된 관계자만 이용할 수 있습니다.
+    </p>
+
+    <div class="login-footer">
+      © L-KIERS GROUP. ALL RIGHTS RESERVED.
+    </div>
+  </div>
+</section>
+
+
+<!-- LOADING -->
+<section id="loadingPage" class="screen loading-screen hidden">
+  <img src="맥시엘_로고.png" class="loading-logo" alt="">
+
+  <div class="loading-company">L-KIERS GROUP</div>
+
+  <div class="loading-line">
+    <div class="loading-progress"></div>
+  </div>
+
+  <div class="loading-department" id="departmentName">
+    Executive Command
+  </div>
+
+  <p>ESTABLISHING SECURE CONNECTION...</p>
+</section>
+
+
+<!-- MAIN -->
+<section id="mainPage" class="screen main-screen hidden">
+
+  <!-- HEADER -->
+  <header class="topbar">
+    <div class="topbar-brand">
+      <img src="맥시엘_로고.png" alt="">
+      <div>
+        <strong>L-KIERS GROUP</strong>
+        <small>INTERNAL INFORMATION SYSTEM</small>
+      </div>
+    </div>
+
+    <div class="topbar-right">
+      <span class="topbar-status">● CONNECTED</span>
+      <span class="topbar-user">GUEST ACCESS</span>
+    </div>
+  </header>
+
+
+  <!-- NAVIGATION -->
+  <nav class="navigation">
+    <span>HOME</span>
+    <span>PERSONNEL</span>
+    <span>RELATIONSHIP</span>
+    <span>ARCHIVE</span>
+    <span class="nav-code">EC / PC</span>
+  </nav>
+
+
+  <main class="container">
+
+    <!-- PAGE TITLE -->
+    <section class="page-heading">
+      <div class="breadcrumb">
+        L-KIERS GROUP &nbsp; / &nbsp; INTERNAL DATABASE &nbsp; / &nbsp; CP
+      </div>
+
+      <div class="heading-flex">
+        <div>
+          <span class="section-kicker">CORPORATE PROMOTION / CP ARCHIVE</span>
+          <h1>Personnel & Relationship<br>Information</h1>
+          <p>인물 및 관계 정보 열람 문서</p>
+        </div>
+
+        <div class="heading-code">
+          <span>DOCUMENT NO.</span>
+          <strong>LK-CP-001</strong>
+          <small>CLASSIFICATION : INTERNAL</small>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- INTRO -->
+    <section class="intro-section">
+      <div class="intro-text">
+        <span class="blue-label">OFFICIAL RECORD</span>
+        <h2>Mac Kyler <span>&</span> Cassiel Vesper</h2>
+        <p>
+          L-Kiers Group 소속 인물 및 관계 기록.
+          본 문서는 지정된 인물에 대한 기본 정보와
+          관계성, 관련 자료를 통합하여 제공한다.
+        </p>
+
+        <div class="intro-meta">
+          <span>RECORD TYPE : CHARACTER / CP</span>
+          <span>STATUS : ACTIVE</span>
+        </div>
+      </div>
+
+      <div class="intro-image">
+        <img src="오뎅탕a.png" alt="Mac Kyler and Cassiel Vesper">
+        <span>FIG. 001 — PERSONNEL RECORD</span>
+      </div>
+    </section>
+
+
+    <!-- PERSONNEL -->
+    <section class="content-section" id="personnel">
+
+      <div class="section-title">
+        <div>
+          <span class="section-kicker">01 / PERSONNEL</span>
+          <h2>Individual Records</h2>
+        </div>
+        <span class="section-number">02 PROFILES</span>
+      </div>
+
+
+      <!-- MAC -->
+      <article class="profile-card">
+        <div class="profile-header">
+          <div class="profile-identity">
+            <img src="오뎅탕a_맥.png" alt="Mac Kyler">
+            <div>
+              <span class="profile-designation">PERSONNEL NO. 001</span>
+              <h3>Mac Kyler</h3>
+              <span class="profile-korean">맥 카일러</span>
+            </div>
+          </div>
+
+          <div class="profile-status">
+            <span class="status-dot offline"></span>
+            <span>OFFLINE</span>
+          </div>
+        </div>
+
+        <div class="profile-data">
+          <div class="data-item">
+            <span>HEIGHT</span>
+            <strong>186 cm</strong>
+          </div>
+          <div class="data-item">
+            <span>GENDER</span>
+            <strong>M</strong>
+          </div>
+          <div class="data-item">
+            <span>DEPARTMENT</span>
+            <strong>Executive Command (EC)</strong>
+          </div>
+          <div class="data-item">
+            <span>POSITION</span>
+            <strong>5star</strong>
+          </div>
+        </div>
+
+        <div class="profile-message">
+          <span>PERSONNEL MESSAGE</span>
+          <p>
+            [Offline] 모든 연락은 Cassiel Vesper 쪽으로 전달/허가 없는 연락 차단.
+          </p>
+        </div>
+
+        <div class="characteristic">
+          <div class="subsection-heading">
+            <strong>CHARACTERISTIC</strong>
+            <span>개인 특성 및 참고 사항</span>
+          </div>
+          <div class="writing-space"></div>
+        </div>
+      </article>
+
+
+      <!-- CASSIEL -->
+      <article class="profile-card">
+        <div class="profile-header">
+          <div class="profile-identity">
+            <img src="오뎅탕a_시엘.png" alt="Cassiel Vesper">
+            <div>
+              <span class="profile-designation">PERSONNEL NO. 002</span>
+              <h3>Cassiel Vesper</h3>
+              <span class="profile-korean">카시엘 베스퍼 / 시엘(Ciel)</span>
+            </div>
+          </div>
+
+          <div class="profile-status">
+            <span class="status-dot online"></span>
+            <span>ONLINE</span>
+          </div>
+        </div>
+
+        <div class="profile-data">
+          <div class="data-item">
+            <span>HEIGHT</span>
+            <strong>175 cm</strong>
+          </div>
+          <div class="data-item">
+            <span>GENDER</span>
+            <strong>M</strong>
+          </div>
+          <div class="data-item">
+            <span>DEPARTMENT</span>
+            <strong>Personal Coordination (PC)</strong>
+          </div>
+          <div class="data-item">
+            <span>POSITION</span>
+            <strong>5group / 과장</strong>
+          </div>
+        </div>
+
+        <div class="profile-message">
+          <span>PERSONNEL MESSAGE</span>
+          <p>
+            [Online] L-Kiers Group 조율관리부/Mac Kyler 관련 연락은 이곳으로만 부탁드립니다.
+          </p>
+        </div>
+
+        <div class="characteristic">
+          <div class="subsection-heading">
+            <strong>CHARACTERISTIC</strong>
+            <span>개인 특성 및 참고 사항</span>
+          </div>
+          <div class="writing-space"></div>
+        </div>
+      </article>
+
+    </section>
+
+
+    <!-- RELATIONSHIP -->
+    <section class="content-section" id="relationship">
+
+      <div class="section-title">
+        <div>
+          <span class="section-kicker">02 / RELATIONSHIP</span>
+          <h2>Relationship Records</h2>
+        </div>
+        <span class="section-number">CP ARCHIVE</span>
+      </div>
+
+      <div class="relationship-card">
+
+        <div class="meeting-record">
+          <span>FIRST MEETING</span>
+          <h3>고등학교 1학년</h3>
+          <p>
+            같은 학교의 반장과 학생으로 만났다.
+          </p>
+        </div>
+
+        <div class="relationship-divider"></div>
+
+        <div class="relationship-voices">
+
+          <div class="voice-item">
+            <div class="voice-person">
+              <img src="오뎅탕a_맥.png" alt="">
+              <span>MAC KYLER</span>
+            </div>
+            <div class="voice-content">
+              <span>MAC → CIEL</span>
+              <p>
+                귀찮기도 하고. 능글거리는 거 보면 종종 짜증나지만 내가 지켜야 해.
+              </p>
+            </div>
+          </div>
+
+          <div class="voice-item reverse">
+            <div class="voice-person">
+              <img src="오뎅탕a_시엘.png" alt="">
+              <span>CASSIEL VESPER</span>
+            </div>
+            <div class="voice-content">
+              <span>MAC ← CIEL</span>
+              <p>
+                인성 개차반인 거 아는데, 너니까 좋다.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="relationship-characteristic">
+          <div class="subsection-heading">
+            <strong>RELATIONSHIP CHARACTERISTIC</strong>
+            <span>관계성 및 추가 기록</span>
+          </div>
+          <div class="writing-space relationship-writing"></div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- STORY & ART -->
+    <section class="content-section" id="archive">
+
+      <div class="section-title">
+        <div>
+          <span class="section-kicker">03 / STORY & ART</span>
+          <h2>Story & Art Archive</h2>
+        </div>
+        <span class="section-number">DOCUMENTS</span>
+      </div>
+
+      <div class="archive-description">
+        <span>ARCHIVE DATABASE</span>
+        <p>
+          두 인물과 관련된 이야기 및 시각 자료를 기록하는 공간.
+          각 문서의 이동 버튼을 통해 개별 자료를 열람할 수 있다.
+        </p>
+      </div>
+
+      <div class="archive-list">
+
+        <!-- 게시물 추가 시 아래 article을 복사 -->
+
+        <article class="archive-item">
+          <div class="archive-date">YYYY.MM.DD</div>
+          <div class="archive-title">
+            <span>STORY / ART</span>
+            <strong>제목을 입력해 주세요.</strong>
+          </div>
+          <a href="#" class="archive-link">이동 →</a>
+        </article>
+
+        <article class="archive-item">
+          <div class="archive-date">YYYY.MM.DD</div>
+          <div class="archive-title">
+            <span>STORY / ART</span>
+            <strong>제목을 입력해 주세요.</strong>
+          </div>
+          <a href="#" class="archive-link">이동 →</a>
+        </article>
+
+        <!-- 게시물 추가 영역 끝 -->
+
+      </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <img src="맥시엘_로고.png" alt="">
+
+      <p class="footer-quote">
+        망한 사랑의 역설에 관하여.
+      </p>
+
+      <div class="footer-company">L-KIERS GROUP</div>
+      <span>INTERNAL CHARACTER INFORMATION SYSTEM</span>
+      <span>© L-KIERS GROUP. ALL RIGHTS RESERVED.</span>
+    </footer>
+
+  </main>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
